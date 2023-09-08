@@ -149,6 +149,7 @@ build_gateway_and_push_to_docker_hub:
         push: true
         # Тут вместо username должен быть ваш логин на Docker Hub
         tags: scherevatyy/taski_gateway:latest
+
 build_gateway_and_push_to_docker_hub:
   name: Push gateway Docker image to DockerHub
   runs-on: ubuntu-latest
@@ -168,4 +169,4 @@ build_gateway_and_push_to_docker_hub:
         context: ./gateway/
         push: true
         # Тут вместо username должен быть ваш логин на Docker Hub
-        tags: username/taski_gateway:latest
+        tags: scherevatyy/taski_gateway:latest
