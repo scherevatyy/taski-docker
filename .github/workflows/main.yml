@@ -40,6 +40,7 @@ jobs:
     - name: Test with flake8 and django tests
       # Добавляем env-переменные для доступа к БД
       env:
+        SECRET_KEY: prnj9&xc*^6odiuiyl-)f@rr*zq^kt8__#+m8$n6g%cuotnbcx
         POSTGRES_USER: django_user
         POSTGRES_PASSWORD: django_password
         POSTGRES_DB: django_db
